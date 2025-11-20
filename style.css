@@ -54,6 +54,7 @@ html, body {
     color: transparent;     
     -webkit-text-fill-color: transparent; 
     opacity: 0;
+    transition: all 0.4s cubic-bezier(.37, 1.1, 1, 1.29);
 }
 
 #card p{
