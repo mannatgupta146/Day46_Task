@@ -21,7 +21,7 @@ This task helped strengthen my understanding of **user interactions and aestheti
 ## 🎥 Demo Preview  
 > 🔗 *Heart pop animation demo:*  
 
-![Demo](./demo.gif)
+![Demo](./assets/demo.gif)
 
 
 ## ✨ Task Description  
