@@ -18,12 +18,6 @@ Day 46 focused on building **micro-interactions** using JavaScript and CSS anima
 This task helped strengthen my understanding of **user interactions and aesthetic UI effects**.
 
 
-## 🎥 Demo Preview  
-> 🔗 *Heart pop animation demo:*  
-
-![Demo](./assets/demo.gif)
-
-
 ## ✨ Task Description  
 
 | Feature | Description |
