@@ -1,62 +1,64 @@
 # Day 46 Task | Cohort 2.0  
-This project is my **Day 45 Task**, where I built a **Download Progress Simulator** using **HTML, CSS, and JavaScript**.
+This project is my **Day 46 Task**, where I built a **Double-Tap Heart Animation Effect** using **HTML, CSS, and JavaScript**.
 
-With a single click, a fake download animation begins, showing a progressing green bar, increasing percentage, and a button that shifts from **Download → Downloading → Downloaded**.  
-This task helped me practice **DOM manipulation, timing functions, styling updates, and smooth UI transitions**.
+When the user **double-clicks the image**, a heart appears at the center, pops with a smooth scale-up animation, rotates slightly, and fades out — similar to the **Instagram double-tap like animation**.  
+This task helped me practice **CSS transforms, custom cubic-bezier transitions, opacity control, and DOM event handling**.
 
 
-## 📌 About the Day 45 Task  
-Day 45 focused on using JavaScript timing functions and UI updates, including:
+## 📌 About the Day 46 Task  
+Day 46 focused on building **micro-interactions** using JavaScript and CSS animations, including:
 
-- `setInterval()` for progressive updates  
-- `setTimeout()` for controlling total download duration  
-- Updating **width**, **text**, and **colors** dynamically  
-- Managing button states (enabled → disabled → completed)  
-- Randomizing download duration for a realistic effect  
+- Detecting double-click using `dblclick`  
+- Applying smooth transitions using **cubic-bezier easing**  
+- Controlling **opacity**, **scale**, and **rotation** dynamically  
+- Using **absolute positioning** + `translate(-50%, -50%)` to perfectly center the heart  
+- Sequencing animations using `setTimeout()`  
+- Experimenting with UI gestures and feedback animations  
 
-This task improved my ability to create **interactive loaders and progress bars** using JavaScript.
+This task helped strengthen my understanding of **user interactions and aesthetic UI effects**.
 
 
 ## 🎥 Demo Preview  
-> 🔗 *See the download animation in action:*
+> 🔗 *Heart pop animation demo:*  
 
 ![Demo](./demo.gif)
+
 
 ## ✨ Task Description  
 
 | Feature | Description |
 |--------|-------------|
-| ⬇️ **Download Button** | Starts the fake download animation on click. |
-| 📊 **Progress Bar** | Fills from 0% to 100% smoothly using JavaScript. |
-| 🔢 **Percentage Counter** | Displays the increasing download percentage. |
-| ⏱️ **Random Download Time** | Simulates varying download speeds with randomized timing. |
-| 🎨 **Button State Changes** | Button updates from Download → Downloading → Downloaded. |
-| 🧭 **DOM Manipulation** | Updates width, text content, and styles dynamically. |
-| 🖥️ **Clean UI** | Centered, modern, simple user interface. |
+| ❤️ **Double-Tap Heart Effect** | Heart appears on image double-click with a smooth popping animation. |
+| 🎬 **Custom Animation Flow** | Scale-up → rotate → fade-out transitions controlled via JavaScript. |
+| 🎨 **Cubic-Bezier Timing** | Smooth and natural animation curve applied using custom easing. |
+| 🔧 **DOM Event Handling** | Listens for `dblclick` on the image container. |
+| 🎯 **Absolute Centering** | Heart stays perfectly centered using translate positioning. |
+| 🖼️ **Background Clipped Heart** | Custom background clipped into the heart using `background-clip: text;`. |
+| 🧭 **Smooth Transitioning** | All animations use `transition: all 0.4s cubic-bezier(...)`. |
 
 
 ## 🛠️ Technologies Used  
 - **HTML** – Structure  
-- **CSS** – Styling, layout, button UI  
-- **JavaScript (ES6)** – Timer logic, DOM updates, progress animation  
-- **VS Code / Browser** – Development setup  
+- **CSS** – Styling, transitions, cubic-bezier animations  
+- **JavaScript (ES6)** – Double-click detection, animation triggers  
+- **VS Code / Browser** – Development environment  
 
 
 ## 📖 Learning Outcome  
 Through this task, I learned how to:
 
-- Use `setInterval()` & `setTimeout()` for animations  
-- Create dynamic progress bars using CSS + JS  
-- Modify styles (background-color, width, text) via JavaScript  
-- Disable buttons and manage UI states  
-- Add randomness using `Math.random()`  
-- Build simple interactive UI components without libraries  
+- Create animations using **transform + opacity**  
+- Use **custom cubic-bezier curves**  
+- Trigger animations with JavaScript events  
+- Apply `background-clip` for stylish icon effects  
+- Use `setTimeout()` to control animation steps  
+- Build interactive UI micro-animations without libraries  
 
-This task enhanced my understanding of **JavaScript timing + interactive UI design**.
+This task improved my understanding of **motion design** and **micro-interactions** in frontend development.
 
 
 ## 🌟 Acknowledgement  
-This task helped me grow in **frontend development**, especially in creating components involving animations, progress indicators, and timed actions.  
-Thank you for the continuous learning journey through Cohort 2.0.
+This task helped me practice creating smooth UI animations and user interaction effects using pure HTML, CSS, and JavaScript.  
+Thank you to Cohort 2.0 for the continuous learning journey.
 
 ---
